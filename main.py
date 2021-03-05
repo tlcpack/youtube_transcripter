@@ -2,7 +2,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 
 final = []
 finalstr = ''
-trans = YouTubeTranscriptApi.get_transcript('8iei3HtdBbQ')
+video = input('Give me a youtube id: ')
+trans = YouTubeTranscriptApi.get_transcript(video)
 for dic in trans:
   for key in dic:
     if key == 'text':
