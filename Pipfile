@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 youtube-transcript-api = "*"
+nltk = "*"
+matplotlib = "*"
+wordcloud = "*"
 
 [requires]
 python_version = "3.8"
