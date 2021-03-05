@@ -10,4 +10,7 @@ for dic in trans:
       final.append(dic[key])
 
 finalstr = ' '.join(final)
+with open('text2.txt', mode='w') as file:
+    file.write(finalstr)
+    print("ready!")
 print(finalstr)
